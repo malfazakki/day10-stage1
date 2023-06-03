@@ -1,47 +1,28 @@
-/* Overwritten bootstrap css start */
-
-.btn-primary {
-  background-color: #fe4e30;
-  border: none;
+* {
+  box-sizing: border-box;
+}
+.rounded-15 {
+  border-radius: 15px;
 }
 
-.btn-primary:hover {
-  background-color: salmon;
-}
-
-.text-orange {
-  color: #fe4e30 !important;
-}
-
-.link-nav:hover {
-  color: #fe4e30 !important;
-  font-weight: 500;
-}
-
-nav {
-  height: 8vh;
+main > .container-lg {
+  height: 92vh;
 }
 
 @media (max-width: 992px) {
-  .navbar-expand-lg .navbar-collapse {
-    position: fixed;
-    top: 8vh;
-    left: 0;
-    width: 100vw;
-    box-shadow: -11px 14px 26px -12px rgba(122, 122, 122, 1);
-    padding-bottom: 10px;
-    margin-top: 5px;
+  main .container-lg {
+    height: auto;
   }
-}
-
-/* Overwritten bootstrap css end */
-
-main .container {
-  height: 92vh;
 }
 
 .profile-container {
   box-shadow: 0 0 20px #cecece;
+}
+
+@media (max-width: 992px) {
+  .profile-container {
+    box-shadow: none;
+  }
 }
 
 .profile-picture {
@@ -49,4 +30,49 @@ main .container {
   object-fit: cover;
 }
 
+.justify {
+  text-align: justify;
+}
 
+.icons:hover {
+  color: rgb(241, 96, 80);
+}
+
+.card-profile {
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .card-profile {
+    width: 70%;
+  }
+}
+
+.card-profile img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-profile h2 {
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-profile h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-project img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+
+.project {
+  background-color: rgb(235, 241, 243);
+  padding-top: 3vh;
+}
