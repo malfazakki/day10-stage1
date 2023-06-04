@@ -24,4 +24,9 @@ function submitData() {
   };
 
   console.log(emailer);
+  resetForm();
+}
+
+function resetForm() {
+  document.getElementById("myForm").reset();
 }

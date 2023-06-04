@@ -36,6 +36,9 @@ nav {
     margin-top: 5px;
     background-color: white;
   }
+  nav {
+    height: auto;
+  }
 }
 
 a {
